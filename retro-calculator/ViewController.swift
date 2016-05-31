@@ -82,6 +82,7 @@ class ViewController: UIViewController {
         result = ""
         
         outputLbl.text = ""
+        //perhaps this code should be used as part of processOperation function instead of here.
     }
     
     func processOperation(op: Operation) {
